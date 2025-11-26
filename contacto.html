@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mercedes-Benz | Contacto</title>
+</head>
+<body>
+
+    <h1>MERCEDES-BENZ</h1>
+    <p>Contacto</p>
+
+    <hr>
+
+    <!-- Menu de navegacion -->
+    <p>
+        <a href="../index.html">Inicio</a> |
+        <a href="historia.html">Historia y Modelos</a> |
+        <a href="galeria.html">Galeria</a> |
+        <a href="contacto.html">Contacto</a>
+    </p>
+
+    <hr>
+
+    <h2>Formulario de Contacto</h2>
+    <p>Envianos tus mensajes, opiniones o consultas. Estaremos encantados de atenderte.</p>
+
+    <hr>
+
+    <form action="#" method="post">
+
+        <fieldset>
+            <legend><b>Datos Personales</b></legend>
+
+            <p>
+                <label for="nombre">Nombre completo:</label><br>
+                <input type="text" id="nombre" name="nombre" size="40" maxlength="50" required>
+            </p>
+
+            <p>
+                <label for="email">Correo electronico:</label><br>
+                <input type="email" id="email" name="email" size="40" required>
+            </p>
+
+            <p>
+                <label for="telefono">Telefono:</label><br>
+                <input type="tel" id="telefono" name="telefono" size="20">
+            </p>
+
+            <p>
+                <label for="fecha">Fecha de nacimiento:</label><br>
+                <input type="date" id="fecha" name="fecha">
+            </p>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Informacion Adicional</b></legend>
+
+            <p>
+                <label for="pais">Pais:</label><br>
+                <select id="pais" name="pais">
+                    <option value="">-- Selecciona un pais --</option>
+                    <option value="espana">Espana</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="chile">Chile</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="modelo">Modelo de interes:</label><br>
+                <select id="modelo" name="modelo">
+                    <option value="">-- Selecciona un modelo --</option>
+                    <optgroup label="Sedanes">
+                        <option value="clase-a">Clase A</option>
+                        <option value="clase-c">Clase C</option>
+                        <option value="clase-s">Clase S</option>
+                    </optgroup>
+                    <optgroup label="SUV">
+                        <option value="gla">GLA</option>
+                        <option value="glc">GLC</option>
+                        <option value="gle">GLE</option>
+                    </optgroup>
+                    <optgroup label="Deportivos">
+                        <option value="amg-gt">AMG GT</option>
+                        <option value="amg-sl">AMG SL</option>
+                    </optgroup>
+                    <optgroup label="Electricos">
+                        <option value="eqa">EQA</option>
+                        <option value="eqs">EQS</option>
+                    </optgroup>
+                </select>
+            </p>
+
+            <p>
+                <label>Tipo de consulta:</label><br>
+                <input type="radio" id="info" name="tipo" value="informacion">
+                <label for="info">Informacion general</label><br>
+                <input type="radio" id="compra" name="tipo" value="compra">
+                <label for="compra">Interes de compra</label><br>
+                <input type="radio" id="servicio" name="tipo" value="servicio">
+                <label for="servicio">Servicio tecnico</label><br>
+                <input type="radio" id="otro" name="tipo" value="otro">
+                <label for="otro">Otro</label>
+            </p>
+
+            <p>
+                <label>Preferencias de contacto:</label><br>
+                <input type="checkbox" id="cont-email" name="contacto" value="email">
+                <label for="cont-email">Por correo electronico</label><br>
+                <input type="checkbox" id="cont-tel" name="contacto" value="telefono">
+                <label for="cont-tel">Por telefono</label><br>
+                <input type="checkbox" id="cont-whatsapp" name="contacto" value="whatsapp">
+                <label for="cont-whatsapp">Por WhatsApp</label>
+            </p>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Tu Mensaje</b></legend>
+
+            <p>
+                <label for="asunto">Asunto:</label><br>
+                <input type="text" id="asunto" name="asunto" size="50" required>
+            </p>
+
+            <p>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="6" cols="50" required></textarea>
+            </p>
+
+            <p>
+                <label for="archivo">Adjuntar archivo (opcional):</label><br>
+                <input type="file" id="archivo" name="archivo">
+            </p>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Confirmacion</b></legend>
+
+            <p>
+                <input type="checkbox" id="terminos" name="terminos" required>
+                <label for="terminos">Acepto los terminos y condiciones</label>
+            </p>
+
+            <p>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Deseo recibir novedades y ofertas</label>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar Mensaje">
+                <input type="reset" value="Limpiar Formulario">
+            </p>
+
+        </fieldset>
+
+    </form>
+
+    <hr>
+
+    <h3>Otras Formas de Contacto</h3>
+    <p><b>Direccion:</b> Calle Mercedes 123, Stuttgart, Alemania</p>
+    <p><b>Telefono:</b> +34 600 123 456</p>
+    <p><b>Email:</b> info@mercedesfan.com</p>
+    <p><b>Horario:</b> Lunes a Viernes de 9:00 a 18:00</p>
+
+    <hr>
+
+    <!-- Pie de pagina -->
+    <p><b>Mercedes-Benz Fan Site</b></p>
+    <p>Email: info@mercedesfan.com | Telefono: +34 600 123 456</p>
+    <p>&copy; 2024 Mercedes-Benz Fan Site. Todos los derechos reservados.</p>
+
+</body>
+</html>
