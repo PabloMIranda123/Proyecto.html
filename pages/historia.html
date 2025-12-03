@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de Mercedes-Benz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #000000;
+            padding: 20px 0;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            color: #00adef;
+            margin-bottom: 15px;
+            letter-spacing: 3px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 12px 25px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        nav a:hover {
+            background-color: #00adef;
+            border-color: #00adef;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 48px;
+            color: #00adef;
+            margin-bottom: 50px;
+        }
+
+        .article {
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 40px;
+            margin-bottom: 40px;
+            border-radius: 15px;
+            border-left: 5px solid #00adef;
+        }
+
+        .article h2 {
+            color: #00adef;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .article-meta {
+            color: #888888;
+            font-size: 14px;
+            margin-bottom: 25px;
+            font-style: italic;
+        }
+
+        .article p {
+            font-size: 18px;
+            line-height: 1.9;
+            margin-bottom: 20px;
+            color: #e0e0e0;
+        }
+
+        .highlight {
+            color: #00adef;
+            font-weight: bold;
+        }
+
+        .timeline-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 40px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .timeline-table thead {
+            background: linear-gradient(135deg, #00adef, #0088cc);
+        }
+
+        .timeline-table th {
+            padding: 20px;
+            text-align: left;
+            font-size: 18px;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .timeline-table td {
+            padding: 18px 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            color: #e0e0e0;
+        }
+
+        .timeline-table tr:hover {
+            background-color: rgba(0, 173, 239, 0.1);
+        }
+
+        .year-column {
+            font-weight: bold;
+            color: #00adef;
+            font-size: 20px;
+            width: 15%;
+        }
+
+        .models-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 40px;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .models-table th {
+            background-color: rgba(0, 173, 239, 0.2);
+            padding: 15px;
+            text-align: left;
+            border: 1px solid rgba(0, 173, 239, 0.3);
+            color: #00adef;
+        }
+
+        .models-table td {
+            padding: 12px 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .category-header {
+            background-color: rgba(0, 173, 239, 0.15);
+            font-weight: bold;
+            color: #00adef;
+        }
+
+        footer {
+            background-color: #000000;
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 80px;
+            border-top: 3px solid #00adef;
+        }
+
+        .copyright {
+            color: #888888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">★ MERCEDES-BENZ ★</div>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="historia.html">Historia</a>
+            <a href="galeria.html">Galería</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>📖 Historia de Mercedes-Benz</h1>
+
+        <div class="article">
+            <h2>Los Orígenes: Karl Benz y Gottlieb Daimler</h2>
+            <div class="article-meta">La fundación de una leyenda automotriz</div>
+            <p>
+                La historia de Mercedes-Benz comienza en <span class="highlight">1886</span>, cuando 
+                <span class="highlight">Karl Benz</span> patentó el primer automóvil de gasolina del mundo: 
+                el <span class="highlight">Benz Patent-Motorwagen</span>. Este vehículo de tres ruedas 
+                marcó el nacimiento de la industria automotriz moderna.
+            </p>
+            <p>
+                Simultáneamente, <span class="highlight">Gottlieb Daimler</span> y Wilhelm Maybach desarrollaban 
+                sus propios motores de combustión interna. En 1901, crearon el <span class="highlight">Mercedes 35 PS</span>, 
+                nombrado así en honor a Mercedes Jellinek, hija del empresario austriaco Emil Jellinek, quien era 
+                distribuidor de los vehículos Daimler.
+            </p>
+            <p>
+                La fusión de las dos compañías en <span class="highlight">1926</span> dio origen a 
+                <span class="highlight">Daimler-Benz AG</span> y al nacimiento oficial de la marca Mercedes-Benz, 
+                uniendo la innovación de Benz con la elegancia de Daimler.
+            </p>
+        </div>
+
+        <div class="article">
+            <h2>La Estrella de Tres Puntas</h2>
+            <div class="article-meta">Un símbolo de excelencia mundial</div>
+            <p>
+                El icónico logo de la <span class="highlight">estrella de tres puntas</span> fue registrado en 1909 
+                por Daimler-Motoren-Gesellschaft. Cada punta representa la visión de Gottlieb Daimler de motorizar 
+                el transporte en <span class="highlight">tierra, mar y aire</span>.
+            </p>
+            <p>
+                Este emblema se ha convertido en uno de los símbolos de lujo y calidad más reconocidos del mundo, 
+                representando más de un siglo de innovación continua y excelencia en ingeniería alemana.
+            </p>
+        </div>
+
+        <div class="article">
+            <h2>Innovaciones Revolucionarias</h2>
+            <div class="article-meta">Pioneros en tecnología automotriz</div>
+            <p>
+                Mercedes-Benz ha sido responsable de numerosas innovaciones que han transformado la industria:
+            </p>
+            <p>
+                🔹 <span class="highlight">1936:</span> Primer vehículo diesel de pasajeros (260 D)<br>
+                🔹 <span class="highlight">1951:</span> Zona de deformación programada para mayor seguridad<br>
+                🔹 <span class="highlight">1959:</span> Patente de la zona de habitáculo rígida<br>
+                🔹 <span class="highlight">1978:</span> Sistema antibloqueo de frenos (ABS)<br>
+                🔹 <span class="highlight">1981:</span> Primer airbag en un automóvil de serie<br>
+                🔹 <span class="highlight">1995:</span> Sistema de control de estabilidad (ESP)<br>
+                🔹 <span class="highlight">2013:</span> Primera conducción autónoma en tráfico real
+            </p>
+        </div>
+
+        <div class="article">
+            <h2>Cronología Histórica</h2>
+            
+            <table class="timeline-table">
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Evento Histórico</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="year-column">1886</td>
+                        <td>Karl Benz patenta el primer automóvil con motor de gasolina</td>
+                    </tr>
+                    <tr>
+                        <td class="year-column">1901</td>
+                        <td>Nace el nombre "Mercedes" con el Mercedes 35 PS</td>
+                    </tr>
+                    <tr>
+                        <td class="year-column">1926</td>
+                        <td>Fusión de Benz & Cie. y Daimler-Motoren-Gesellschaft</td>
+                    </tr>
+                    <tr>
+                        <td class="year-column">1936</td>
+                        <td>Lanzamiento del 260 D, primer diesel de serie</td>
+                    </tr>
+                    <tr>
+                        <td class="year-column">1954</td>
+                        <td>Presentación del legendario 300 SL "Alas de Gaviota"</td>
+                    </tr>
+                    <tr>
+                        <td class="year-column">1963</td>
+                        <td>Debut de la Clase S, referente mundial del lujo</td>
+                    </tr>
+                    <tr>
+                        <td class="year-column">1979</td>
+                        <td>Lanzamiento de la Clase G, el todoterreno de lujo</td>
+                    </tr>
+                    <tr>
+                        <td class="year-column">1997</td>
+                        <td>Introducción de la Clase A, compacto premium</td>
+                    </tr>
+                    <tr>
+                        <td class="year-column">2019</td>
+                        <td>Presentación del EQC, inicio de la era eléctrica EQ</td>
+                    </tr>
+                    <tr>
+                        <td class="year-column">2021</td>
+                        <td>EQS: El Mercedes-Benz eléctrico más avanzado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="article">
+            <h2>Gama de Modelos Actual</h2>
+            
+            <table class="models-table">
+                <thead>
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Modelos</th>
+                        <th>Características</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="category-header">
+                        <td colspan="3">SEDANES Y COUPÉS</td>
+                    </tr>
+                    <tr>
+                        <td>Clase A</td>
+                        <td>A 180, A 200, A 250</td>
+                        <td>Compacto deportivo, tecnología MBUX</td>
+                    </tr>
+                    <tr>
+                        <td>Clase C</td>
+                        <td>C 200, C 300, C 43 AMG</td>
+                        <td>Sedán ejecutivo, elegancia y rendimiento</td>
+                    </tr>
+                    <tr>
+                        <td>Clase E</td>
+                        <td>E 200, E 300, E 53 AMG</td>
+                        <td>Tecnología avanzada, confort superior</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Clase S</td>
+                        <td rowspan="2">S 500, S 580, Maybach S-Class</td>
+                        <td rowspan="2">Lujo absoluto, innovación máxima</td>
+                    </tr>
+                    <tr></tr>
+                    <tr class="category-header">
+                        <td colspan="3">SUVs Y TODOTERRENOS</td>
+                    </tr>
+                    <tr>
+                        <td>GLA</td>
+                        <td>GLA 200, GLA 250</td>
+                        <td>SUV compacto urbano</td>
+                    </tr>
+                    <tr>
+                        <td>GLC</td>
+                        <td>GLC 200, GLC 300, GLC 63 AMG</td>
+                        <td>SUV mediano versátil</td>
+                    </tr>
+                    <tr>
+                        <td>GLE</td>
+                        <td>GLE 350, GLE 450, GLE 63 S AMG</td>
+                        <td>SUV premium de alto rendimiento</td>
+                    </tr>
+                    <tr>
+                        <td>Clase G</td>
+                        <td>G 400, G 500, G 63 AMG</td>
+                        <td>Icono todoterreno, lujo extremo</td>
+                    </tr>
+                    <tr class="category-header">
+                        <td colspan="3">DEPORTIVOS AMG</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">AMG GT, AMG GT 63 S, AMG ONE</td>
+                        <td>Supercars de alto rendimiento</td>
+                    </tr>
+                    <tr class="category-header">
+                        <td colspan="3">ELÉCTRICOS EQ</td>
+                    </tr>
+                    <tr>
+                        <td>EQA / EQB</td>
+                        <td>Compactos eléctricos</td>
+                        <td>Hasta 500 km autonomía</td>
+                    </tr>
+                    <tr>
+                        <td>EQE / EQS</td>
+                        <td>Sedanes eléctricos de lujo</td>
+                        <td>Hasta 780 km autonomía, hiperscreen</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2025 Mercedes-Benz. Todos los derechos reservados.</p>
+            <p>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                contacto@mercedes-benz.es | 📞 +34 900 123 456</p>
+        </div>
+    </footer>
+</body>
+</html>
