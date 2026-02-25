@@ -120,7 +120,7 @@ table h3 {
     color: #333333;
 }
 
-/* Audio */
+
 audio {
     display: block;
     margin: 20px auto;
@@ -131,7 +131,7 @@ audio {
     border: 2px solid #000000;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     margin-top: 30px;
@@ -143,9 +143,7 @@ footer p {
     color: #333333;
 }
 
-/* Links del footer */
 
-/* Responsive - Media Query según el PDF */
 @media (max-width: 768px) {
     body {
         padding: 10px;
